@@ -1,1 +1,30 @@
+Algoritmo   
 
+Digite o 1° Digito do CPF.
+Digite o 2° Digito do CPF.
+Digite o 3° Digito do CPF.
+Digite o 4° Digito do CPF.
+Digite o 5° Digito do CPF.
+Digite o 6° Digito do CPF.
+Digite o 7° Digito do CPF.
+Digite o 8° Digito do CPF.
+Digite o 9° Digito do CPF.
+Digite o 1° Digito verificador do CPF. 
+Digite o 2° Digito verificador do CPF.
+Divida 2_Calculo = 1° Digito do CPF X 10 + 2° Digito do CPF X 9 + 3° Digito do CPF x 8.
+Divida 2_Calculo = Divida 2_Calculo + 4° Digito do CPF X 7 + 5° Digito do CPF X 6. 
+Divida 2_Calculo = Divida 2_Calculo + 6° Digito do CPF*5 + 7° Digito do CPF X 4.
+Divida 2_Calculo = Divida 2_Calculo + 8° Digito do CPF X 3 + 9° Digito do CPF X 2. 
+Se a Divida 2_Calculo for 11% maior que 2, Subtrair 11 do Valor.
+Se não, Divida 2_Calculo = 0.
+Divida 1_Calculo = 1° Digito do CPF X 11 + 2° Digito do CPF X 10 + 3° Digito do CPF X 9. 
+Divida 1_Calculo = Divida 1_Calculo + 4° Digito do CPF X 8 + 5° Digito do CPF X 7. 
+Divida 1_Calculo = Divida 1_Calculo + 6° Digito do CPF  X 6 + 7° Digito do CPF X 5.
+Divida 1_Calculo = Divida 1_Calculo + 8° Digito do CPF X 4 + 9° Digito do CPF X 3.
+Divida 1_Calculo = Divida 1_Calculo + Divida 2_Calculo X 2. 
+Se a Divida 1_Calculo for 11% maior que 2, Subtrair 11 do Valor.
+Se não, Divida 1_Calculo = 0
+Se Divida 2_Calculo for igual a ao 1° Digito verificador do CPF e Divida 1_Calculo for igual ao 2° Digito Verificador do CPF.
+Mostrar mensagem " CPF valido ". 
+Se não, mostrar mensagem " CPF Invalido " 
+Fim.
