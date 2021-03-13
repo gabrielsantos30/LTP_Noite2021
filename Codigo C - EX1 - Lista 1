@@ -6,7 +6,7 @@ Exercicio 1 - Lista 1
 
 int main(void) {
 
-  int e_numero1, e_numero2, e_numero3, saida1, saida2, saida3, saida4, saida5, saida6, saida7, saida8, saida9, saida10, saida11, saida12, saida13, saida14, saida15, saida16, saida17, saida18;
+  int e_numero1, e_numero2, e_numero3, saida1, saida2, saida3, 
   printf("Digite o Primeiro Valor: \n");
   scanf("%i", &e_numero1);
 
@@ -29,62 +29,7 @@ if (e_numero2>e_numero3){
  printf("Valores: %i\n", saida3);
 }
  
-if (e_numero1>e_numero3){
-  saida4 = e_numero2;
-  saida5 = e_numero3;
-  saida6 = e_numero1;
 
-  printf("Valores: %i\n", saida4);
- printf("Valores: %i\n",saida5);
- printf("Valores: %i\n", saida6);
-}
- if (e_numero1<e_numero3){
-saida7 = e_numero2;
-saida8 = e_numero1;
-saida9 = e_numero3;
-
-printf("Valores: %i\n", saida7);
- printf("Valores: %i\n",saida8);
- printf("Valores: %i\n", saida9);
- }
-
- if (e_numero1<e_numero2){
-}
-if (e_numero1>e_numero3){
-
-saida10 = e_numero3;
-saida11 = e_numero1;
-saida12 = e_numero2;
-
-printf("Valores: %i\n", saida10);
- printf("Valores: %i\n",saida11);
- printf("Valores: %i\n", saida12);
-}
-
- if (e_numero1<e_numero3){
-}
-
-if (e_numero2>e_numero3){
-  saida13 = e_numero1;
-  saida14 = e_numero3;
-  saida15 = e_numero2;
-
-  printf("Valores: %i\n", saida13);
- printf("Valores: %i\n",saida14);
- printf("Valores: %i\n", saida15);
-}
-
- if (e_numero2<e_numero3){
-  saida16 = e_numero1;
-  saida17 = e_numero2;
-  saida18 = e_numero3;
-
-printf("Valores: %i\n", saida16);
- printf("Valores: %i\n",saida17);
- printf("Valores %i\n", saida18);
- 
-
-}
 
   return 0;
 }
