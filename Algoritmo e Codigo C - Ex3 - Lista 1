@@ -1,0 +1,31 @@
+Algoritmo
+1. Digite o valor da Variavel A.
+2.Dígito o Valor da Variavel B.
+3. Se o valor da Variavel A para maior ou igual a 10, trocar esse valor com o valor da Variavel B.
+4. Se o valor da Variavel B para maior ou igual a 20, trocar esse valor com o valor da Variavel A.
+5. Fim 
+
+
+Codigo C:
+
+#include <stdio.h>
+
+int main(void) {
+
+  int var_A, var_B, var_1, var_2;
+  printf("Digite Valor da Variavel A: \n");
+  scanf("%i", &var_A);
+
+  printf("Digite o Valor da Variavel B: \n");
+  scanf("%i", &var_B);
+
+if (var_A>=10){
+printf("Variavel B: %i\n", var_A);
+}
+
+if(var_B>=20){
+printf("Variavel A: %i\n", var_B);
+}
+
+  return 0;
+}
