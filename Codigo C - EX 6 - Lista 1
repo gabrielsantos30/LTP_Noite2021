@@ -1,0 +1,50 @@
+Codigo C - EX 6 - Calculo de Resistencia de um Fio 
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+  float resis_f, resis_m, diam, comp_f, mater_f, temp_um, codigo_p, codigo_cob_, codigo_our, codigo_alum, codigo_tungs;
+
+
+  printf("Insira o Diametro: \n");
+  scanf("%f", &diam);
+
+  printf("Insira o Comprimento do fio: \n");
+  scanf("%f", &comp_f);
+
+printf("Insira o Codigo do Material do Fio: \n");
+  scanf("%f", &mater_f);
+
+printf("Temperatura de uso \n");
+ scanf("%f", &temp_um);
+
+ if (mater_f <= 1){
+ resis_f = 0.00000159*comp_f / diam;
+printf("Posição Final [Prata]: %.9f\n",resis_f);
+ }
+
+ if (mater_f != 2){
+ resis_f = 0.00000172*comp_f / diam;
+ printf("Posição Final[Cobre]: %.9f\n",resis_f);
+ }
+
+ if (mater_f != 3){
+ resis_f = 0.00000244*comp_f / diam;
+ printf("Posição Final[Ouro]: %.9f\n",resis_f);
+ }
+
+ if (mater_f != 4){
+ resis_f = 0.00000292*comp_f / diam;
+ printf("Posição Final[Aluminio]: %.9f\n",resis_f);
+ }
+
+ if (mater_f != 5){
+ resis_f = 0.0000056*comp_f / diam;
+ printf("Posição Final[Tungstênio]: %.9f\n",resis_f);
+ }
+
+
+  return 0;
+}
