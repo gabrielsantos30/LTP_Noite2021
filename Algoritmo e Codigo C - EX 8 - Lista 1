@@ -1,0 +1,48 @@
+Algoritmo - Resistencia Equivalente em Paralelo 
+Insira o Valor da Primeira Resistência.
+Insira o Valor da Segunda Resistência.
+Insira o Valor da Terceira Resistência. 
+Insira o Valor da Quarta Resistência. 
+Resistencia Equivalente 1  = Primeira resistencia X Segunda Resistência / Primeira resistencia + Segunda Resistência
+Resistencia Equivalente 2  = Terceira Resistencia X Quarta Resistencia /  Terceira Resistencia + Quarta Resistencia.
+Resistencia Equivalente Final = Resistencia Equivalente1 X Resistencia Equivalente2 / Resistencia Equivalente1 + Resistencia Equivalente2.
+Mostrar o valor da Resistencia Equivalente Final para o usuario. 
+
+
+Codigo em C. 
+
+#include <stdio.h>
+#include <stdlib.h>
+int main(void) {
+
+  float resis_1, resis_2, resis_3, resis_4, resis_equi, calc_1, calc_2, calc_3, calc_4, calc_5, calc_6 , calc_7, calc_8;
+
+printf(" Insira o valor da Primeira Resistência: ");
+scanf("%f", &resis_1);
+
+printf(" Insira o valor da Segunda Resistência: ");
+scanf("%f", &resis_2);
+
+printf(" Insira o valor da Terceira Resistência: ");
+scanf("%f", &resis_3);
+
+printf(" Insira o  valor da Quarta Resistência: ");
+scanf("%f", &resis_4);
+
+calc_1 = resis_1 * resis_2;
+calc_2 = resis_1 + resis_2;
+calc_3 = calc_1 / calc_2; 
+
+calc_4 = resis_3 * resis_4;
+calc_5 = resis_3 + resis_4;
+calc_6 = calc_4 / calc_5; 
+
+calc_7 = calc_3 * calc_6;
+calc_8 = calc_3 + calc_6;
+resis_equi = calc_7 / calc_8; 
+
+printf("Resistencia Equivalente: %.2f\n",resis_equi);
+
+  
+  return 0;
+}
