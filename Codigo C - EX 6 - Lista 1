@@ -20,27 +20,27 @@ printf("Insira o Codigo do Material do Fio: \n");
 printf("Temperatura de uso \n");
  scanf("%f", &temp_um);
 
- if (mater_f <= 1){
+ if (mater_f == 1){
  resis_f = 0.00000159*comp_f / diam;
 printf("Posição Final [Prata]: %.9f\n",resis_f);
  }
 
- if (mater_f != 2){
+ if (mater_f == 2){
  resis_f = 0.00000172*comp_f / diam;
  printf("Posição Final[Cobre]: %.9f\n",resis_f);
  }
 
- if (mater_f != 3){
+ if (mater_f == 3){
  resis_f = 0.00000244*comp_f / diam;
  printf("Posição Final[Ouro]: %.9f\n",resis_f);
  }
 
- if (mater_f != 4){
+ if (mater_f == 4){
  resis_f = 0.00000292*comp_f / diam;
  printf("Posição Final[Aluminio]: %.9f\n",resis_f);
  }
 
- if (mater_f != 5){
+ if (mater_f == 5){
  resis_f = 0.0000056*comp_f / diam;
  printf("Posição Final[Tungstênio]: %.9f\n",resis_f);
  }
