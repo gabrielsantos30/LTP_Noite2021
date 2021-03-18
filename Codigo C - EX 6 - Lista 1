@@ -5,8 +5,7 @@ Codigo C - EX 6 - Calculo de Resistencia de um Fio
 
 int main(void) {
 
-  float resis_f, resis_m, diam, comp_f, mater_f, temp_um, codigo_p, codigo_cob_, codigo_our, codigo_alum, codigo_tungs;
-
+  float resis_f, resis_m, diam, comp_f, mater_f, temp_um;
 
   printf("Insira o Diametro: \n");
   scanf("%f", &diam);
