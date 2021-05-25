@@ -1,0 +1,40 @@
+Codigo C - Exercício 1.
+
+#include <stdio.h>
+
+int main(void) {
+
+ int e_nro_1, e_nro_2, mmc, valor_aux, resto;
+
+
+ mmc = 1;
+ valor_aux = 2;
+
+
+do {
+  printf("Digite Primeiro valor: \n");
+ scanf("%i", &e_nro_1);
+
+printf("Digite Segundo valor: \n");
+ scanf("%i", &e_nro_2);
+ mmc = mmc * valor_aux;
+ printf(" MMC: %i\n", mmc);
+  
+} while ( e_nro_1==0 || e_nro_2==0);
+
+resto= e_nro_1/valor_aux || e_nro_2/valor_aux;
+
+while (resto > 0 && e_nro_1/valor_aux >= 1 && e_nro_2/valor_aux >= 1){
+  printf(" %i\n",++valor_aux);
+ ++valor_aux;
+}
+
+while (resto == 0){
+printf(" %i\n",e_nro_1);
+--e_nro_1;
+printf(" %i\n",e_nro_2);
+--e_nro_2;
+}
+ 
+  return 0;
+}
