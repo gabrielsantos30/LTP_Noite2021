@@ -1,4 +1,6 @@
 Codigo em C - Lista 2 - Ex 4
+#include <stdio.h>
+#include <unistd.h>
 int main(void) {
 int aux;
 aux = 1;
