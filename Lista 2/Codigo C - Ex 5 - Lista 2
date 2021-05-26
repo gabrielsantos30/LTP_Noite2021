@@ -1,0 +1,29 @@
+Codigo C - Ex 5 - Lista 2
+#include <stdio.h>
+#include <unistd.h>
+
+int main(void) {
+
+  int temperatura;
+
+printf("Temperatura do radiador aumentando!! \n");
+
+
+  for (temperatura=60; temperatura<=90;++temperatura){
+    sleep(1);
+printf("%d \n",temperatura);
+sleep(1/2);
+  }
+
+  printf("Iniciando resfriamento! \n");
+  sleep(6);
+  
+
+for (temperatura=90;temperatura>=70;--temperatura){
+  sleep(1);
+  printf("%d \n",temperatura);
+  sleep(3);
+}
+printf("resfriamento completo !  \n");
+  return 0;
+}
