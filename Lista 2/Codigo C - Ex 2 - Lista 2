@@ -1,0 +1,29 @@
+Codigo C - Exercicio 2 - Lista 2 
+#include <stdio.h>
+
+int main(void) {
+ 
+ int algar_1 , algar_2, algar_3;
+
+ 
+ for ( int algar_1 = 1; algar_1 <= 9; ++algar_1){
+
+    for( int algar_2 = 0;algar_2<=9;++algar_2)
+
+    for (int algar_3 =0; algar_3<=9; ++algar_3){
+      printf("%d (%d*%d*%d)\n",(algar_1*algar_2*algar_3),algar_1,algar_2,algar_3);
+    }
+    }
+ 
+
+
+
+
+
+
+
+
+
+
+  return 0;
+}
