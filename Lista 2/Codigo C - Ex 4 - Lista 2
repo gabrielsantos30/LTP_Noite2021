@@ -1,0 +1,15 @@
+Codigo em C - Lista 2 - Ex 4
+int main(void) {
+int aux;
+aux = 1;
+
+do {
+ sleep(2);
+  printf("pisca...\n");
+sleep(2);
+} while (aux==1);
+
+
+
+  return 0;
+}
